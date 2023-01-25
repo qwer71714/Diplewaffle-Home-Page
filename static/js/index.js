@@ -22,22 +22,41 @@ let swiper = new Swiper(".mySwiper", {
 });
 
 
+// 2번째 반응향
+const windowWidth = window.matchMedia("screen and (max-width: 768px)");
 
-// 2번째 캐러셀
-let swiper_2 = new Swiper(".mySwiper-2", {
-  slidesPerView: 4,
-  spaceBetween: 20,
-  cssMode:true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  }
-});
+if (windowWidth.matches) {
+  let swiper = new Swiper(".mySwiper-2", {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    }
+  });
+  
+  // 미디어 환경 아닐시 PC으로 전환
+} else {
+  let swiper = new Swiper(".mySwiper-2", {
+    slidesPerView: 4,
+    spaceBetween: 20,
+    cssMode:true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    }
+  });
+}
 
 
 // 2번째 캐러셀 class prices가 자동으로 한국 원화표시 해주는 기능

@@ -1,0 +1,140 @@
+/* PC Class none Processing */
+
+
+@media screen and (max-width:768px){
+    .container{
+        width:360px;
+        margin: 0 auto;
+    }
+
+    header .flex-box>div{
+        width: 100%;
+    }
+
+    .logo{
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo img{
+        width: 100px;
+    }
+
+    .header-menu-mo{
+        display: block;
+        display: flex;
+        margin-left: auto;
+    }
+
+    .header-menu-mo .material-symbols-outlined{
+        font-size: 28px;
+        color: black;
+        opacity: 10;
+    }
+    
+
+    .swiper-box{
+        display: block;
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+
+    .swiper-box-pc{
+        display: none;
+    }
+
+    .swiper-box-mo{
+        display: block;
+    }
+
+    .free-lecture-columm{
+        display: block;
+    }
+
+    .free-video span{
+        font-size: 0.8em;
+    }
+
+    .free-video li{
+        font-size: 1.4em;
+    }
+
+    .swiper-slide img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-title li{
+        font-size: 0.9em;
+        line-height: 150%;
+    }
+
+    .prices{
+        font-size: 1em;
+    }
+
+    .naver-smart-store{
+        display: block;
+    }
+
+    .naver-box{
+        display: inline;
+    }
+
+    .capital-smart h1{
+        font-size: 18px;
+    }
+
+    .small-smart{
+        font-size: 0.78em;
+        line-height: 24px;
+        margin-top: 1.5vh;
+    }
+
+    .small-smart br{
+        display: none;
+    }
+
+    .smart-box{
+        display: none;
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .navbar_menu{
+        display: none;
+    }
+
+    .logo-input{
+        display: none;
+    }
+
+    .header-menu{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+}

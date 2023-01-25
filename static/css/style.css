@@ -4,8 +4,8 @@
     width: 50vh;
     margin-left: 5vh;
     padding: 1.5vh 1vh 1.5vh 2.5vh;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     background-color: rgb(243, 243, 243);
     border-radius: 100px;
     border: none;
@@ -65,7 +65,6 @@
 
 .header-menu p,a{
     font-size: 16px;
-    font-weight: 500;
 }
 
 .header-menu span{
@@ -80,6 +79,7 @@
 
 .header-menu span p{
     margin-left: 8px;
+    font-weight: 600;
 }
 
 .header-menu span{
@@ -88,6 +88,7 @@
 
 .header-menu li a{
     padding: 0px 20px;
+    font-weight: 600;
     color: black;
 }
 
@@ -104,12 +105,13 @@
 }
 .free-video span{
     font-size: 15px;
+    font-weight: 600;
 }
 
 .free-video li{
     margin-top: 1vh;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 800;
     
 }
 
@@ -137,7 +139,8 @@
 .swiper-title li{
     margin-top: 2vh;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
+    line-height: 26px;
 }
 
 .writer{
@@ -146,7 +149,7 @@
 
 .writer li{
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .difficulty{
@@ -157,6 +160,7 @@
     align-items: center;
     display: flex;
     font-size: 15px;
+    font-weight: 500;
 }
 
 .difficulty li img{
@@ -166,7 +170,7 @@
 
 .discount{
     font-size: 22px;
-    font-weight: 900;
+    font-weight: 800;
     color: rgb(0, 110, 255);
     margin-right: 1.2vh;
 }
@@ -175,12 +179,12 @@
     display: flex;
     margin-top: 1.2vh;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 800;
     align-items: center;
 }
 
 
-.price span:nth-child(3){
+.price span:nth-child(2){
     text-decoration: line-through;
     margin-left: 2vh;
     color: rgb(180, 180, 180);
@@ -220,10 +224,10 @@
     width: 250px;
 }
 
-.capital-smart li{
+.capital-smart h1{
     font-size: 24px;
+    font-weight: 800;
     line-height: 38px;
-    font-family: 'NEXEN_TIRE_Bold';
 }
 
 .small-smart{
@@ -233,14 +237,14 @@
 .small-smart{
     font-family: 'Pretendard-Regular', sans-serif;
     font-size: 16px;
-    font-weight: 500;
-    line-height: 28px;
-    color: rgb(104, 104, 104);
+    font-weight: 800;
+    line-height: 32px;
+    color: rgb(85, 85, 85);
 }
 
 #small{
     color: rgb(8, 115, 0);
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .sh-box{
@@ -528,11 +532,11 @@ footer{
 
 .info-exp-li li a{
     color: #8b8b8b;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .info-exp-li li a:hover{
-    border-bottom: 3px solid #000;
+    border-bottom: 2px solid #000;
     padding-bottom: 1.5vh;
     color: #000;
 
@@ -842,4 +846,18 @@ footer{
     color: #636363;
     font-size: 12px;
     padding: 0 12px 0 0;
+}
+
+
+
+.header-menu-mo{
+    display: none;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    display: block;
+}
+
+.swiper-box-mo{
+    display: none;
 }
