@@ -59,6 +59,7 @@
 
 .header-menu{
     margin-top: 30px;
+    align-items: center;
     padding-bottom: 10px;
     display: flex;
 }
@@ -220,10 +221,6 @@
     margin-left: auto;
 }
 
-.smart-box img{
-    width: 250px;
-}
-
 .capital-smart h1{
     font-size: 24px;
     font-weight: 800;
@@ -231,20 +228,12 @@
 }
 
 .small-smart{
-    margin-top: 3vh;
-}
-
-.small-smart{
+    width: 70%;
     font-family: 'Pretendard-Regular', sans-serif;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 32px;
-    color: rgb(85, 85, 85);
-}
-
-#small{
-    color: rgb(8, 115, 0);
-    font-weight: 800;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 3vh;
 }
 
 .sh-box{
@@ -284,91 +273,6 @@
     margin-left: 3vh;
 }
 
-footer{
-    background-color: #fff;
-    margin-top: 15vh;
-    border-top: 1px solid rgb(213, 213, 213);
-    padding-bottom: 3vh;
-}
-
-.footer-box{
-    align-items: center;
-}
-
-.footer-logo-box{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    padding: 5vh 0 0 0;
-    padding-bottom: 3vh;
-}
-
-.footer-menu a{
-    padding: 0 2vh;
-}
-
-.footer-logo-box img{
-    width: 140px;
-}
-
-.sns-icon a{
-    padding: 0 1vh;
-}
-
-.sns-icon img{
-    width: 32px;
-}
-
-.footer-title{
-    padding: 2vh 0 0 0;
-    border-top: 1px solid rgb(213, 213, 213);
-}
-
-.footer-title div{
-    display: flex;
-    color: rgb(106, 106, 106);
-    align-items: center;
-    margin-top: 5px;
-}
-
-.footer-title div span{
-    font-size: 12px;
-}
-
-.footer-title div li{
-    font-size: 12px;
-    padding: 0 1vh;
-}
-
-.footer-cust{
-    border-top: 1px solid rgb(213, 213, 213);
-    margin-top: 3vh;
-    padding-top: 2vh;
-}
-
-.footer-cust-li{
-    display: flex;
-}
-
-.footer-cust-li li{
-    font-size: 12px;
-    font-weight: 500;
-}
-
-
-.footer-cust-li div{
-    display: flex;
-    margin-left: auto;
-}
-
-.footer-cust-li div li{
-    padding: 0 0 0 3vh
-}
-
-.footer-cust-li div li a{
-    font-size: 14px;
-}
 
 /* lecture-index 부분 */
 
@@ -549,9 +453,9 @@ footer{
 }
 
 .invide-title{
-    margin-top: 5vh;
     font-size: 15px;
     font-weight: 400;
+    margin-top: 5vh;
 }
 
 .invide-title h1{
@@ -572,12 +476,15 @@ footer{
     align-items: center;
 }
 
+.invs{
+    margin-top: 0px;
+}
+
 #in-title-img .invide-title span{
     font-weight: 600;
 }
 
 #in-title-img img{
-    margin-top: 5vh;
     width: 35%;
 }
 
@@ -778,8 +685,6 @@ footer{
 
 
 
-
-
 /* 로그인 */
 .login-ps{
     margin: 0 auto;
@@ -812,6 +717,11 @@ footer{
     outline: none;
 }
 
+input #password{
+    font-family: 'pass', 'Roboto', Helvetica, Arial, sans-serif ;
+    font-size: 18px;
+}
+
 .login-checkbox{
     align-items: center;
     text-align: left;
@@ -827,13 +737,14 @@ footer{
     justify-content: center;
     text-align: center;
     background-color: #000;
-    padding: 1.2vh;
+    padding: 1.5vh;
     margin-top: 5vh;
+    cursor: pointer;
 }
 
 .login-bt a{
     color: #fff;
-    font-size: 24px;
+    font-size: 21px;
     background-color: #000;
     width: 25vmax;
 }

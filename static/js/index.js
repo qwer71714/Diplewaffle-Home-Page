@@ -23,12 +23,12 @@ let swiper = new Swiper(".mySwiper", {
 
 
 // 2번째 반응향
-const windowWidth = window.matchMedia("screen and (max-width: 768px)");
+let windowWidth = window.matchMedia("screen and (max-width: 768px)");
 
 if (windowWidth.matches) {
   let swiper = new Swiper(".mySwiper-2", {
     slidesPerView: 2,
-    spaceBetween: 10,
+    spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

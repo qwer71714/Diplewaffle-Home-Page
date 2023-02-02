@@ -1,5 +1,13 @@
 /* PC Class none Processing */
+@media screen and (max-width:1600px){
+    .container{
+        width: 1200px;
+    }
 
+    .logo input{
+        width: 60vh;
+    }
+}
 
 @media screen and (max-width:768px){
     .container{
@@ -67,8 +75,9 @@
     }
 
     .swiper-title li{
-        font-size: 0.9em;
-        line-height: 150%;
+        margin-top: 1vh;
+        font-size: 16px;
+        line-height:normal;
     }
 
     .prices{
